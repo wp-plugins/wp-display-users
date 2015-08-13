@@ -1,0 +1,111 @@
+/* Frontend CSS */
+div.wpdu-user-container {
+	float: left;
+	width: 100%;
+}
+div.wpdu-user-main {
+	width: 29%;
+	float: left;
+	padding: 1%;
+	text-align: center;
+	background: white;
+	margin: 1%;
+	moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+div.wpdu-user-container div.wpdu-user-main div.wpdu-user-image img {
+	width:100%;
+}
+div.wpdu-user-container h3 {
+	font-family: 'Coustard', sans-serif;
+	color: black;
+	margin: 15px 0;
+	text-align: center;
+	text-shadow: 0px 1px 1px #E4EBE9;
+}
+div.wpdu-user-container h3 a {
+	text-decoration:none;
+}
+div.wpdu-user-container h4 {
+	font-family: "Georgia", "Times New Roman", serif;
+	text-align: left;
+	line-height: 24px;
+}
+div.wpdu_container {
+	width: 100%;
+	float: left;
+	background:#fff;
+	margin-bottom: 30px;
+	moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+div.wpdu_container div.wpdu_wiget_title {
+	padding: 4% 5%;
+	border-bottom: 1px solid #eee;
+}
+div.wpdu_contant {
+	padding: 5% 4%;
+	float: left;
+}
+div.wpdu_container div.wpdu_contant .wpdu-user {
+	list-style-type: none;
+	margin-bottom: 20px;
+	zoom: 1;
+}
+div.wpdu_container div.wpdu_contant .wpdu-user .wpdu-user-avatar {
+	display: block;
+	float: left;
+	line-height: 1em;
+	padding: 5px 0 0 0px;
+	width: 40px;
+}
+div.wpdu_container div.wpdu_contant .wpdu-user-single {
+	display: block;
+	margin-left: 50px;
+}
+div.wpdu_container div.wpdu_contant .wpdu-user-author {
+	font-weight: bold;
+	padding-right: 20px;
+	overflow: hidden;
+}
+div.wpdu_container div.wpdu_contant .wpdu-user-text {
+	overflow: hidden;
+}
+div.wpdu_container div.wpdu_contant .wpdu-user-email, div.wpdu_container div.wpdu_contant .wpdu-user-url {
+	font-size:12px;
+}
+div.wpdu-user-container div.wpdu-pagination, div.wpdu_container div.wpdu-pagination {
+	float:left;
+	text-align:center;
+	width:100%;
+	margin: 15px 8px;
+}
+div.wpdu-user-container ul.page-numbers, div.wpdu_container ul.page-numbers {
+  	float:left;
+	text-align:center;
+	width:100%;
+}
+div.wpdu-user-container ul.page-numbers li, div.wpdu_container ul.page-numbers li {
+  	float:left;
+	text-align:center;
+	list-style:none;
+}
+div.wpdu-user-container ul.page-numbers a, div.wpdu_container ul.page-numbers a {
+  background-color: #ebebeb;
+  color: #ff3c50;
+  padding: 5px 15px;
+}
+div.wpdu-user-container ul.page-numbers a:hover, div.wpdu_container ul.page-numbers a:hover {
+  background-color: #ff3c50;
+  color: #fff;
+}
+div.wpdu-user-container ul.page-numbers span.page-numbers, div.wpdu-user-container ul.page-numbers a.page-numbers, div.wpdu_container ul.page-numbers span.page-numbers, div.wpdu_container ul.page-numbers a.page-numbers {
+  margin-right: 5px;
+  padding: 5px 15px;
+}
+div.wpdu-user-container ul.page-numbers span.current, div.wpdu_container ul.page-numbers span.current {
+  background-color: #ff3c50;
+  color: #fff;
+}
