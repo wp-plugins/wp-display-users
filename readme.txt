@@ -6,11 +6,9 @@ Tested up to: 4.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin provides that allows you to display **Users** in any custom template, page and widgetized sidebar. It includes the abilities to display name, description, email, URL.
-
 == Description ==
 
-This plugin provides that allows you to display **Users** in any custom template, page and widgetized sidebar. It includes the abilities to display name, description, email, URL.
+This plugin provides that allows you to display **Users** in any custom template, page and widgetized sidebar.
 
 = Features = 
 
