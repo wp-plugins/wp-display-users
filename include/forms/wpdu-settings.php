@@ -7,11 +7,11 @@
   if( isset($_POST['setting_restore_submit']) ) {
             
             $wpdu_restore_value_array = array(
-			    "wpdu_username_font_size" =>  25,
-                "wpdu_username_text_transform" =>  "uppercase",
-                "wpdu_content_font_size" =>  13,
-                "wpdu_content_word_limit" =>  25,
-				"wpdu_content_word_limit" =>  "false"
+			    "wpdu_username_font_size" => 25,
+                "wpdu_username_text_transform" => "uppercase",
+                "wpdu_content_font_size" => 13,
+                "wpdu_content_word_limit" => 25,
+				"wpdu_display_pagination_widget" => "false"
             );
 
             $wpdu_restore_setting_value = serialize($wpdu_restore_value_array);
@@ -120,9 +120,9 @@
             <?php _e( 'Content Word Limit', 'wp-display-users' ); ?>
           </label>
         </th>
-        <td><input type="text" name="wpdu_content_word_limit" id="wpdu_content_word_limit" class="regular-text" value="<?php echo $wpdu_content_word_limit; ?>">&nbsp;px
+        <td><input type="text" name="wpdu_content_word_limit" id="wpdu_content_word_limit" class="regular-text" value="<?php echo $wpdu_content_word_limit; ?>">
           <p class="description">
-            <?php _e( 'Please enter here { Content Word Limit }. default is 25', 'wp-display-users' ); ?>
+            <?php _e( 'Please enter here { Content Word Limit }. default is 25 words', 'wp-display-users' ); ?>
           </p></td>
       </tr>
       <tr valign="top">
