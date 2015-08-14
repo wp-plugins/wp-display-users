@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WP Display Users
- * @version 1.0.0
+ * @version 1.0.1
 */
 
 /*
@@ -10,7 +10,7 @@ Plugin URI: https://github.com/devnathverma/wp-display-users/
 Description: A plugin used for display user listing on post, page and sidebar widgets.
 Author: Devnath verma
 Author Email: devnathverma@gmail.com
-Version: 1.0.0
+Version: 1.0.1
 Text Domain: wp-display-users
 Domain Path: /lang/
 License: GPLv2 or later

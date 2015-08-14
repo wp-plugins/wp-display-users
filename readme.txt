@@ -71,3 +71,10 @@ That's it!
 4. Appearence widget menu screen.
 
 == Changelog ==
+
+= 1.0.1 =
+* Update readme.txt file
+* Bug Fix: Content Word Limit error in setting page not updated
+
+= 1.0.0 =
+* Initial release
